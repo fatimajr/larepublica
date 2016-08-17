@@ -1,0 +1,22 @@
+.section1 h1{
+	font-size: 4.2em;
+	font-weight: bold;
+}
+.publi1{
+	width: 100%;
+}
+.bg-foto1{
+	background-image: url("../image/img_grid_principal.jpg");
+	height: 650px;
+	background-size: cover;
+	background-position: center;
+}
+.bg-foto2{
+	background-image: url("../image/img_grid_secundario.jpg");
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+}
+footer{
+	background-color: #D8D8D8;
+}
