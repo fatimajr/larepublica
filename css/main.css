@@ -1,3 +1,201 @@
+/*nav*/
+.bg-head {
+	background: #DBDBDB;
+	font-size: 1.1rem;
+}
+ul .inicio {
+	list-style:none;
+	padding: 4% 3%;
+}
+.btn-color {
+	background: red;
+	color: white;
+	font-size: 1.1rem;
+	border-radius:9px;
+}
+.redes {
+	list-style:none;
+	font-size: 1.5rem;
+	padding-left: 2%;
+}
+.face {
+	color: blue;
+}
+.twi {
+	color: #7EC0EE;
+}
+.goo {
+	color: red;
+}
+.dp-ib {
+	display: inline-block;
+	padding-left: 2%;
+}
+.b-c {
+	padding-left: 1.5%;
+}
+/* segundo*/
+.btn-red {
+	background-color: #8B0000;
+	color: white;
+	font-size: 1.3rem;
+}
+.btn-red:hover {
+	background: #FF0000;
+	color: white;
+}
+.btn-blue {
+	background: #191970;
+	color: white;
+}
+.bd-b {
+	border-left: 0.5px solid black;
+}
+/*tercero*/
+.tag {
+	font-size: 1.3rem;
+}
+.tag-pd {
+	padding: 2.2%;
+}
+#tag .tagnav > ul {
+	background: #DBDBDB;
+}
+.bg-li {
+	background: black;
+	color:white;
+}
+.l-n {
+	list-style: none;
+}
+/*CODIGO DEL HISTORIAL-19*/
+.historia-19{
+	margin-top: 3%;
+	margin-bottom:2%;
+}
+.domingo{
+	position: relative;
+    top: -18px;
+	background-color: #941010;
+	color:white;
+	border:2px solid #941010;
+}
+.caja-domingo{
+	border-top: 1px solid #768696;
+	border-left: 1px solid #768696;
+	border-right: 1px solid #768696;
+	border-bottom: 5px solid #941010;
+	
+}
+.imagen-editorial{
+	position: absolute;
+	top: 8%;
+    left: 6%;
+}
+.editorial{
+	background-color: #2C3238;
+	padding-left:7%;
+	max-width: 85%;
+}
+.habla{
+	font-size: 1.5rem;
+}
+.caja-corrupcion{
+	width: 100%;
+	height:60px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+.imagen-autor{
+	position: absolute;
+	top: -11%;
+    z-index: 1;
+   	left: 73%;
+}
+/*estilos del nav temas del dia*/
+.temas{
+	color: white;
+}
+.boton-tema{
+	background-color:black;
+}
+.boton-dia{
+	background-color:#cccccc;
+}
+.btn-group .boton-dia a{
+	color:black;
+	
+}
+/*ESTILOS DE ULTIMAS NOTICIAS*/
+h3 .fa-angle-double-down{
+	color: red;
+}
+.parrafo-actriz{
+	font-size:1.5rem;
+}
+.enlaces-emma ul li{
+	display: inline;
+	font-size:1rem;
+}
+.caja-emma{
+	border-bottom: 1px solid #D8D8D8;
+	margin-bottom: 3%;
+	padding-bottom: 4%;
+
+}
+.emma{
+	    margin-bottom: 4%;
+	    margin-top: 4%;
+}
+.icon-emma a{
+margin-left:1%;
+}
+.icon-emma .fa-facebook {
+	background-color: #D8D8D8;
+    padding: 1% 2%;
+    border-radius: 3px;
+    color: #0040FF;
+    border-bottom: 4px solid #0040FF;
+    font-size: 1.5rem;
+   
+}
+.icon-emma  .fa-twitter{
+	background-color: #D8D8D8;
+    padding: 1% 2%;
+    border-radius: 3px;
+    border-bottom: 4px solid #01DFD7;
+    color: #01DFD7 ;
+    font-size: 1.5rem;
+}
+.icon-emma .fa-google-plus{
+	background-color: #D8D8D8;
+    padding: 1% 2%;
+    border-radius: 3px;
+    border-bottom: 4px solid red;
+    color: red;
+    font-size: 1.5rem;
+}
+.icon-emma .punto{
+	font-size:2rem;
+}
+.imag-punto{
+	width: 4%;
+
+}
+.punto{
+	margin-left:2%;
+}
+.diez{
+	font-size:1.5rem;
+	color:grey;
+}
+.icon-emma .fa-youtube-play{
+	font-size: 2.5rem;
+	color: red;
+}
+/*HEADER fin*/
 .section1 h1{
 	font-size: 4.2em;
 	font-weight: bold;
@@ -13,10 +211,163 @@
 }
 .bg-foto2{
 	background-image: url("../image/img_grid_secundario.jpg");
-	height: 350px;
+	height: 315px;
 	background-size: cover;
-	background-position: center;
+}
+.text1{
+	color: white;
+	font-size:2.5em;
+	font-weight: bold;
+	padding-top: 75%;
+	padding-left: 3%;
+	text-shadow: 0.05em 0.05em #333
+}
+.text2{
+	color: white;
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-top: 26%;
+	padding-left: 4%;
+	padding-right: 8%;
+	padding-bottom: 3%;
+	text-shadow: 0.05em 0.05em #333;
+}
+.text3{
+	color: white;
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-top: 32%;
+	padding-left: 4%;
+	padding-right: 9%;
+	padding-bottom: 3%;
+	text-shadow: 0.05em 0.05em #333;
+}
+.white{
+	color: white;	
+}
+.bold{
+	font-style: bold;
+	color: black;
+}
+.grupo-rp{
+	padding: 90px 0px;
+}
+.pd-b-17{
+	padding-bottom:1.7%;
+}
+.no-pd{
+	padding:0px;
+}
+.section1 .fa-facebook , .section2 .fa-facebook{
+	background-color: #D8D8D8;
+    padding: 5px 9px;
+    border-radius: 3px;
+    color: #0040FF;
+    border-bottom: 4px solid #0040FF;
+}
+.section1 a :hover{
+	background-color: #BDBDBD;
+}
+.section1 .fa-twitter, .section2 .fa-twitter{
+		background-color: #D8D8D8;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #01DFD7 ;
+    border-bottom: 4px solid #01DFD7 ;
+} 
+.section2 .fa-google-plus{
+	background-color: #D8D8D8;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #610B0B ;
+    border-bottom: 4px solid #610B0B ;
+} 
+.section2 a  :hover{
+	background-color: #BDBDBD;
+}
+.pd-01{
+	padding: 0% 1%;
+}
+.sn-icons{
+	color: #A4A4A4;
+	font-size:0.8em;
+}.sn-icons2{
+	padding-left: 3%;
+	color:white;
+	font-size:0.9em;
+}
+.section2 .container{
+	padding-top: 2%;
+}
+.section2 .col-md-6{
+	padding-right: 0px;
+}
+.section3{
+	padding-top: 3;
+}
+.section3 .titulo{
+	background-color: #610B0B;
+	padding: 1% 2%;
+	color: white;
+	width: 170px;
+	text-align: center;
+	font-size: 1.2em;
+	position: relative;
+	bottom:-40px;
+}
+.section3 .container{
+	background-color: #D8D8D8;
+ 	padding: 3.5%;
+	border-top: 5px solid #610B0B ;
+}
+.section3 img{
+	border: 4px solid white;
+}
+.asoc{
+	border: 2px solid #D8D8D8;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.aw-foto1{
+	background-image: url("../image/img_aweita.jpg");
+	height: 70px;
+	background-repeat: no-repeat;
+	border: 3px solid gray;
+  background-size: cover;
+}
+.pd-t-4{
+	padding-top: 4%;
+}
+.purple{
+	color:#BF00FF;
+}
+.fucsia{
+	color:#DF013A;
+}
+.purpleline{
+	height:5px;
+	width:35%;
+	background-color:#BF00FF;
+}
+.fucsialine{
+	height:5px;
+	width:35%;
+	background-color:#DF013A;
+}
+.yellowline{
+	height:5px;
+	width:35%;
+	background-color:yellow;
+}
+.lineaft{
+	width: 2%;
+  height: 460px;
+  background-color:#E6E6E6;
+ 	margin-right: 20px;
+  margin-top: 0px;
 }
 footer{
 	background-color: #D8D8D8;
+	padding: 20px 0px;
 }
