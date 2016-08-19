@@ -578,6 +578,45 @@ margin-left:1%;
 }
 
 /*PREGUNTA FIN*/
+/*asociados*/
+.asoc{
+	border: 2px solid #D8D8D8;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.aw-foto1{
+	background-image: url("../image/img_aweita.jpg");
+	height: 70px;
+	background-repeat: no-repeat;
+	border: 3px solid gray;
+  background-size: cover;
+}
+.pd-t-4{
+	padding-top: 4%;
+}
+.purple{
+	color:#BF00FF;
+}
+.fucsia{
+	color:#DF013A;
+}
+.purpleline{
+	height:5px;
+	width:35%;
+	background-color:#BF00FF;
+}
+.fucsialine{
+	height:5px;
+	width:35%;
+	background-color:#DF013A;
+}
+.yellowline{
+	height:5px;
+	width:35%;
+	background-color:yellow;
+}
+/*fin asociados*/
 .todas-boton{
 	font-size:3rem;
 	color:white;
