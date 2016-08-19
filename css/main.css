@@ -463,6 +463,121 @@ margin-left:1%;
    color:black;
 }
 /*fin*/
+/* CARICATURA*/
+.centrado {
+	text-align: center;
+}
+
+.textos {
+	display: inline-block;
+}  
+
+.cajaroja {
+    margin: 0% 25%;
+    width: 50%;
+    background-color: #B40404;
+}
+
+.lineagruesa {
+  border: 2px solid #B40404;
+}
+
+.tituloblanco {
+  font-size: 1em;
+  color: white;
+}
+
+.subtitulonegro {
+  font-weight:bold;
+  font-size: 1.5em;
+}
+
+.textobajoimg {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.marginhr {
+   margin-top: 3%;
+}
+
+.lineagruesagrey {
+   border: 2px solid #A4A4A4;
+}
+
+.cajagrey {
+  margin: 0% 25%;
+  width: 50%;
+  background-color: #A4A4A4;
+}
+
+.letrapequena {
+  text-decoration: underline;
+  font-size:1em;
+  color: #424242;
+}
+
+.estilosp {
+  font-weight:bold;
+  font-size: 1em;
+}
+
+.tamanoimgfoto {
+      width: 100%;
+}
+
+.tamanoimgportada {
+	margin-top: 20%;
+}
+
+.dosfilas {
+	    padding-top: 23%;
+}
+
+.dark {
+	color: black;
+}
+/*CARICATURA FIN*/
+/*PREGUNTA*/
+.bg-noticia {
+	background: url(../image/trama_square.jpg);
+	background-size: 1%;
+	background-repeat: repeat;
+	padding: 4% 6%;
+}
+.quest {
+	background: white;
+	padding: 10% 7%;
+}
+.quest-ytd {
+	background: white;
+	margin-top: 5%;
+    padding: 6% 2%;
+}
+.btn-pd {
+	padding: 2% 21%;
+}
+.btn-red {
+	padding-top: 4%;
+}
+.center {
+	text-align: center;
+	padding: 1%;
+}
+.pregunta {
+	position: absolute;
+    top: -2%;
+    left: 40%;
+}
+.progress-bar-warning{
+	background-color: #BDBDBD;		
+}
+.txt-b {
+	color: black;
+	font-weight: bold;
+}
+
+/*PREGUNTA FIN*/
 .todas-boton{
 	font-size:3rem;
 	color:white;
