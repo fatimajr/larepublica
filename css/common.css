@@ -1,0 +1,224 @@
+/*nav*/
+.bg-head {
+	background: #DBDBDB;
+	font-size: 1.1rem;
+}
+ul .inicio {
+	list-style:none;
+	padding: 4% 3%;
+}
+.btn-color {
+	background: red;
+	color: white;
+	font-size: 1.1rem;
+	border-radius:9px;
+}
+.redes {
+	list-style:none;
+	font-size: 1.5rem;
+	padding-left: 2%;
+}
+.face {
+	color: blue;
+}
+.twi {
+	color: #7EC0EE;
+}
+.goo {
+	color: red;
+}
+.dp-ib {
+	display: inline-block;
+	padding-left: 2%;
+}
+.b-c {
+	padding-left: 1.5%;
+}
+/* segundo*/
+.btn-red {
+	background-color: #8B0000;
+	color: white;
+	font-size: 1.3rem;
+}
+.btn-red:hover {
+	background: #FF0000;
+	color: white;
+}
+.btn-blue {
+	background: #191970;
+	color: white;
+}
+.bd-b {
+	border-left: 0.5px solid black;
+}
+/*tercero*/
+.tag {
+	font-size: 1.3rem;
+}
+.tag-pd {
+	padding: 2.2%;
+}
+#tag .tagnav > ul {
+	background: #DBDBDB;
+}
+.bg-li {
+	background: black;
+	color:white;
+}
+.l-n {
+	list-style: none;
+}
+/*CODIGO DEL HISTORIAL-19*/
+.historia-19{
+	margin-top: 3%;
+	margin-bottom:2%;
+}
+.domingo{
+	position: relative;
+    top: -18px;
+	background-color: #941010;
+	color:white;
+	border:2px solid #941010;
+}
+.caja-domingo{
+	border-top: 1px solid #768696;
+	border-left: 1px solid #768696;
+	border-right: 1px solid #768696;
+	border-bottom: 5px solid #941010;
+	
+}
+.imagen-editorial{
+	position: absolute;
+	top: 8%;
+    left: 6%;
+}
+.editorial{
+	background-color: #2C3238;
+	padding-left:7%;
+	max-width: 85%;
+}
+.habla{
+	font-size: 1.5rem;
+}
+.caja-corrupcion{
+	width: 100%;
+	height:60px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+.imagen-autor{
+	position: absolute;
+	top: -11%;
+    z-index: 1;
+   	left: 73%;
+}
+/*estilos del nav temas del dia*/
+.temas{
+	color: white;
+}
+.boton-tema{
+	background-color:black;
+}
+.boton-dia{
+	background-color:#cccccc;
+}
+.btn-group .boton-dia a{
+	color:black;
+	
+}
+/*ESTILOS DE ULTIMAS NOTICIAS*/
+h3 .fa-angle-double-down{
+	color: red;
+}
+.parrafo-actriz{
+	font-size:1.5rem;
+}
+.enlaces-emma ul li{
+	display: inline;
+	font-size:1rem;
+}
+.caja-emma{
+	border-bottom: 1px solid #D8D8D8;
+	margin-bottom: 3%;
+	padding-bottom: 4%;
+
+}
+.emma{
+	    margin-bottom: 4%;
+	    margin-top: 4%;
+}
+.icon-emma a{
+margin-left:1%;
+}
+.icon-emma .fa-facebook {
+	background-color: #D8D8D8;
+    padding: 1% 2%;
+    border-radius: 3px;
+    color: #0040FF;
+    border-bottom: 4px solid #0040FF;
+    font-size: 1.5rem;
+   
+}
+.icon-emma  .fa-twitter{
+	background-color: #D8D8D8;
+    padding: 1% 2%;
+    border-radius: 3px;
+    border-bottom: 4px solid #01DFD7;
+    color: #01DFD7 ;
+    font-size: 1.5rem;
+}
+.icon-emma .fa-google-plus{
+	background-color: #D8D8D8;
+    padding: 1% 2%;
+    border-radius: 3px;
+    border-bottom: 4px solid red;
+    color: red;
+    font-size: 1.5rem;
+}
+.icon-emma .punto{
+	font-size:2rem;
+}
+.imag-punto{
+	width: 4%;
+
+}
+.punto{
+	margin-left:2%;
+}
+.diez{
+	font-size:1.5rem;
+	color:grey;
+}
+.icon-emma .fa-youtube-play{
+	font-size: 2.5rem;
+	color: red;
+}
+/*fin*/
+/*FOOTER*/
+.grupo-rp{
+	padding: 90px 0px;
+}
+.white{
+	color: white;	
+}
+.bold{
+	font-style: bold;
+	color: black;
+}
+.pd-b-17{
+	padding-bottom:1.7%;
+}
+.lineaft{
+	width: 2%;
+  height: 460px;
+  background-color:#E6E6E6;
+ 	margin-right: 20px;
+  margin-top: 0px;
+}
+footer{
+	background-color: #D8D8D8;
+	padding: 20px 0px;
+}
+/*FOOTER FIN*/

@@ -1,4 +1,5 @@
-/*nav*/
+
+/*inicio*/
 .bg-head {
 	background: #DBDBDB;
 	font-size: 1.1rem;
@@ -113,6 +114,7 @@ ul .inicio {
 	top: -11%;
     z-index: 1;
    	left: 73%;
+
 }
 /*estilos del nav temas del dia*/
 .temas{
@@ -168,7 +170,10 @@ margin-left:1%;
     border-bottom: 4px solid #01DFD7;
     color: #01DFD7 ;
     font-size: 1.5rem;
+
+   
 }
+
 .icon-emma .fa-google-plus{
 	background-color: #D8D8D8;
     padding: 1% 2%;
@@ -195,7 +200,7 @@ margin-left:1%;
 	font-size: 2.5rem;
 	color: red;
 }
-/*HEADER fin*/
+/*publicidad y titulo1*/
 .section1 h1{
 	font-size: 4.2em;
 	font-weight: bold;
@@ -203,6 +208,46 @@ margin-left:1%;
 .publi1{
 	width: 100%;
 }
+.section1 .fa-facebook , .section2 .fa-facebook{
+	background-color: #D8D8D8;
+    padding: 5px 9px;
+    border-radius: 3px;
+    color: #0040FF;
+    border-bottom: 4px solid #0040FF;
+}
+.section1 a :hover{
+	background-color: #BDBDBD;
+}
+.section1 .fa-twitter, .section2 .fa-twitter{
+		background-color: #D8D8D8;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #01DFD7 ;
+    border-bottom: 4px solid #01DFD7 ;
+} 
+.section2 .fa-google-plus{
+	background-color: #D8D8D8;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #610B0B ;
+    border-bottom: 4px solid #610B0B ;
+} 
+.section2 a  :hover{
+	background-color: #BDBDBD;
+}
+.pd-01{
+	padding: 0% 1%;
+}
+.sn-icons{
+	color: #A4A4A4;
+	font-size:0.8em;
+}.sn-icons2{
+	padding-left: 3%;
+	color:white;
+	font-size:0.9em;
+}
+/*fin*/
+/*portada noticias*/
 .bg-foto1{
 	background-image: url("../image/img_grid_principal.jpg");
 	height: 650px;
@@ -245,63 +290,14 @@ margin-left:1%;
 .white{
 	color: white;	
 }
-.bold{
-	font-style: bold;
-	color: black;
-}
-.grupo-rp{
-	padding: 90px 0px;
-}
-.pd-b-17{
-	padding-bottom:1.7%;
-}
 .no-pd{
 	padding:0px;
 }
-.section1 .fa-facebook , .section2 .fa-facebook{
-	background-color: #D8D8D8;
-    padding: 5px 9px;
-    border-radius: 3px;
-    color: #0040FF;
-    border-bottom: 4px solid #0040FF;
-}
-.section1 a :hover{
-	background-color: #BDBDBD;
-}
-.section1 .fa-twitter, .section2 .fa-twitter{
-		background-color: #D8D8D8;
-    padding: 5px 8px;
-    border-radius: 3px;
-    color: #01DFD7 ;
-    border-bottom: 4px solid #01DFD7 ;
-} 
-.section2 .fa-google-plus{
-	background-color: #D8D8D8;
-    padding: 5px 8px;
-    border-radius: 3px;
-    color: #610B0B ;
-    border-bottom: 4px solid #610B0B ;
-} 
-.section2 a  :hover{
-	background-color: #BDBDBD;
-}
-.pd-01{
-	padding: 0% 1%;
-}
-.sn-icons{
-	color: #A4A4A4;
-	font-size:0.8em;
-}.sn-icons2{
-	padding-left: 3%;
-	color:white;
-	font-size:0.9em;
-}
-.section2 .container{
+.section2 .container {
 	padding-top: 2%;
 }
-.section2 .col-md-6{
-	padding-right: 0px;
-}
+/*fin*/
+/*columnista*/
 .section3{
 	padding-top: 3;
 }
@@ -323,6 +319,64 @@ margin-left:1%;
 .section3 img{
 	border: 4px solid white;
 }
+/*fin*/
+/*seccion noticias destacadas*/
+.noti { 
+   padding:0.5rem;
+}
+.pases {
+   border:1px solid #DDDDDD;
+   padding:0%;
+   position: relative;
+}
+.mercado{
+   color:red;
+}
+.futbol img{
+	width:100%;
+}
+.grueso{
+	font-weight: bold;
+   color:#fff;
+   text-align:left;
+   position: absolute; 
+   top:68%; 
+   left:0%; 
+   width:100%;
+   font-size:2.2rem;
+}
+.vids{
+   position: absolute; 
+   top:58%; 
+}
+.pases p a{
+   color:black;
+   font-weight: bold;
+}
+/*fin*/
+/*anuncio boletin*/
+.suscrip{
+   background-image:url(../image/trama_square.jpg);
+   position: relative;
+   padding:15% 2% 3%;
+}
+.suscrip img{
+   position:absolute;
+   width:5rem;
+   top: 3rem;
+}
+.inscrip{
+   background-color:#fff;
+   padding:3% 10%
+}
+.btn-danger{
+   width: 100%;
+}
+.block {
+	padding-left: 5%;
+}
+/*fin*/
+/*aweita*/
 .asoc{
 	border: 2px solid #D8D8D8;
 	padding-top: 1%;
@@ -360,6 +414,70 @@ margin-left:1%;
 	width:35%;
 	background-color:yellow;
 }
+/*fin*/
+/*fotos destacadas*/
+.fotdest{
+   margin:6% 1%;
+   padding-bottom:4%;
+   border-bottom:0.2rem solid #DDDDDD;
+}
+.destnas{
+   border:0.2rem solid #dddddd;
+   margin:3% 1%;
+}
+.fotdest .asidestacados a{
+   color:black;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+.fotos{
+   border-top: 2px 
+}
+.bortit{
+   position: relative;
+   height:0.3rem;
+}
+.humal{
+   background-image: url(../image/img_especiales_aside.jpg);
+   background-size: cover;
+   height:23rem;
+   background-repeat: no-repeat;
+   margin:1rem;
+   padding-top:46%;
+}
+.destacados, .destacados2{
+   background-color:grey;
+   position: absolute;
+   left:12rem;
+   top:1rem;
+}
+.destacados2{
+   left:16rem;
+}
+.humal .asidestacados a{
+   background-color: rgba(229,229,239,0.8);
+   font-weight: bold;
+   font-size: 2rem;
+   color:black;
+}
+/*fin*/
+.todas-boton{
+	font-size:3rem;
+	color:white;
+	border: 2px solid #D10D0D;
+	border-radius:5px;
+	background-color: #D10D0D;
+}
+.bold{
+	font-style: bold;
+	color: black;
+}
+.grupo-rp{
+	padding: 90px 0px;
+}
+.pd-b-17{
+	padding-bottom:1.7%;
+}
 .lineaft{
 	width: 2%;
   height: 460px;
@@ -370,4 +488,21 @@ margin-left:1%;
 footer{
 	background-color: #D8D8D8;
 	padding: 20px 0px;
+}
+@media(max-width: 992px){
+	.imagen-autor{
+		    left: 80%;
+	}
+	.republica{
+		margin-bottom:5%;
+	}
+	.nav-politica{
+		display:none;
+	}
+	.tema{
+		width: 90%;
+	}
+	.asoc{
+		width:100%;
+	}
 }
