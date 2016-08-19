@@ -1,0 +1,42 @@
+.ultimo{
+	padding-bottom:1%;
+}
+.icono{
+	font-size:20px;
+	color:red;
+	padding:4px 0 0 5px;
+}
+.bloque{
+	border:1px solid #BDBDBD;
+	margin-bottom:15px;
+	padding:4%;
+}
+.caja{
+	background-color:#F2F2F2;
+	padding:2%;
+}
+.avatar{
+	border:2px solid white;
+	float:left;
+	
+	margin:4%;
+}
+.subtitulo,.text{
+	margin:0;
+}
+.enlace{
+	color:black;
+}
+.text .enlace{
+	color:#585858;
+}
+.enlace:hover{
+	color:black;
+}
+.padding{
+	padding-bottom:5%;
+}
+.padding-text{
+	padding-top:4%;
+	padding-bottom:14%;
+}
